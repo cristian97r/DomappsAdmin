@@ -1,0 +1,10 @@
+<app-google-maps></app-google-maps>
+<div routerLink="/estado" style="cursor: pointer;" class="charts-container" >
+  <ngx-charts-pie-grid
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="single"
+  (select)="onSelect($event)">
+ </ngx-charts-pie-grid>
+ </div>
+

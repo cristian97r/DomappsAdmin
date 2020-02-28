@@ -1,7 +1,23 @@
+<!-- <app-sidebar-tmx></app-sidebar-tmx> margin-right: 475px; -->
+<mat-sidenav-container position class="example-container">
+  <mat-sidenav style="width: 485px;" position="end" #sidenav [mode]="mode.value">
+    <app-sidebar-tmx></app-sidebar-tmx>
+  </mat-sidenav>
+  <app-sidebar></app-sidebar>
+  <div style="margin-left: 200px;" class="main-content">
+    <router-outlet></router-outlet>
+      <button
+        class="button"
+        mat-fab
+        color="primary"
+        matBadge="8"
+        matBadgeColor="accent"
+        matBadgePosition="after"
+        matBadgeSize="large"
+        (click)="sidenav.toggle()"
+      >
 
-<app-sidebar></app-sidebar>
-<app-sidebar-tmx></app-sidebar-tmx>
-<div style="margin-left: 190px; margin-right: 485px;" class="main-content">
-  <router-outlet></router-outlet>
-</div>
-
+      <mat-icon color="accent">notification_important</mat-icon>
+      </button>
+  </div>
+</mat-sidenav-container>

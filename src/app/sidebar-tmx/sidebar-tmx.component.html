@@ -44,7 +44,7 @@
     <p>67A6D8A</p>
     <p class="desc" style="width: 142px;
     height: 76px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
-    <p class="level">High</p>
+    <p (click)="openModal('custom-modal-2')" class="level">High</p>
   </div>
   <div class="alerta">
     <p>Jalisco</p>
@@ -52,7 +52,7 @@
     <p>67A6D8A</p>
     <p class="desc" style="width: 142px;
     height: 76px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
-    <p class="level" style="background: #F4F955">Mid</p>
+    <p (click)="openModal('custom-modal-1')" class="level" style="background: #F4F955">Mid</p>
   </div>
   <div class="alerta">
     <p>Jalisco</p>
@@ -88,3 +88,11 @@
   </div>
 
 </div>
+
+<jw-modal style="width: 62%; margin: auto;" id="custom-modal-1">
+  <img src="assets\images\alerta1.png" style="margin: auto;" alt="">
+</jw-modal>
+
+ <jw-modal style="width: 62%; margin: auto;"  id="custom-modal-2">
+  <img src="assets\images\alerta2.png" style="margin: auto;" alt="">
+</jw-modal>

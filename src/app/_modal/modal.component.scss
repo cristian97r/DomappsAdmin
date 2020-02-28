@@ -14,16 +14,18 @@ jw-modal {
 
         /* z-index must be higher than .jw-modal-background */
         z-index: 1000;
-        
+
         /* enables scrolling for tall modals */
         overflow: auto;
 
         .jw-modal-body {
-            padding: 20px;
-            background: #fff;
-
+            padding: 0px;
+            background: rgba(255, 255, 255, 0.137);
+            width: 60%;
+            margin: auto;
+            margin-top: 90px;
             /* margin exposes part of the modal background */
-            margin: 40px;
+            // margin: 40px;
         }
     }
 
@@ -38,7 +40,7 @@ jw-modal {
         /* semi-transparent black  */
         background-color: #000;
         opacity: 0.75;
-        
+
         /* z-index must be below .jw-modal and above everything else  */
         z-index: 900;
     }

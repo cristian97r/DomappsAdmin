@@ -1,1 +1,15 @@
+.button {
+  position: fixed;
+  top: 25px;
+    right: 15px;
+    height: 80px;
+    width: 80px;
+    z-index: 500;
+    background: rgba(199, 199, 199, 0.411);
+}
 
+.mat-icon {
+  height: 40px;
+    width: 40px;
+  font-size: 40px;
+}
