@@ -22,6 +22,10 @@ import { MatRadioModule } from "@angular/material/radio";
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
 import { WheaterComponent } from './wheater/wheater.component';
+import { WeatherDetailsComponent } from './weather-details/weather-details.component';
+import { WeatherChartComponent } from './weather-chart/weather-chart.component';
+import { WeatherHourComponent } from './weather-hour/weather-hour.component';
+import { SocialComponent } from './social/social.component';
 
 
 
@@ -37,7 +41,11 @@ import { WheaterComponent } from './wheater/wheater.component';
     EmpleadoDetailsComponent,
     PanicButtonComponent,
     SidenavAlertComponent,
-    WheaterComponent
+    WheaterComponent,
+    WeatherDetailsComponent,
+    WeatherChartComponent,
+    WeatherHourComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
