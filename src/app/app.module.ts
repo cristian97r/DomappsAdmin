@@ -26,6 +26,8 @@ import { WeatherDetailsComponent } from './weather-details/weather-details.compo
 import { WeatherChartComponent } from './weather-chart/weather-chart.component';
 import { WeatherHourComponent } from './weather-hour/weather-hour.component';
 import { SocialComponent } from './social/social.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
+import { IneficienciaChartComponent } from './ineficiencia-chart/ineficiencia-chart.component';
 
 
 
@@ -45,7 +47,9 @@ import { SocialComponent } from './social/social.component';
     WeatherDetailsComponent,
     WeatherChartComponent,
     WeatherHourComponent,
-    SocialComponent
+    SocialComponent,
+    LineChartComponent,
+    IneficienciaChartComponent
   ],
   imports: [
     BrowserModule,
