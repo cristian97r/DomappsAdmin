@@ -28,6 +28,7 @@ import { WeatherHourComponent } from './weather-hour/weather-hour.component';
 import { SocialComponent } from './social/social.component';
 import { LineChartComponent } from './line-chart/line-chart.component';
 import { IneficienciaChartComponent } from './ineficiencia-chart/ineficiencia-chart.component';
+import { WeekChartComponent } from './week-chart/week-chart.component';
 
 
 
@@ -49,7 +50,8 @@ import { IneficienciaChartComponent } from './ineficiencia-chart/ineficiencia-ch
     WeatherHourComponent,
     SocialComponent,
     LineChartComponent,
-    IneficienciaChartComponent
+    IneficienciaChartComponent,
+    WeekChartComponent
   ],
   imports: [
     BrowserModule,
